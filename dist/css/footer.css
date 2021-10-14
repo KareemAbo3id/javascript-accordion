@@ -1,0 +1,17 @@
+/* footer style */
+footer {
+    padding: var(--global-padding);
+    color: var(--white);
+    font-size: var(--font-md);
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--prim-color);
+}

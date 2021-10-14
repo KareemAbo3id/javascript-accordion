@@ -1,0 +1,32 @@
+:root {
+    /* background color */
+    --violet: hsl(273, 75%, 66%);
+    --blue: hsl(240, 73%, 65%);
+    --global-background-color: linear-gradient(
+        to top,
+        var(--blue),
+        var(--violet)
+    );
+
+    /* primary color */
+    --prim-color: #ff8880;
+
+    /* -grey color */
+    --grey-dark: hsl(237, 12%, 33%);
+    --grey-light: hsl(240, 6%, 50%);
+
+    /* -black/-white colors */
+    --black: hsl(238, 29%, 16%);
+    --white: hsl(240, 5%, 91%);
+
+    /* spases */
+    --global-padding: 1.5rem 2rem;
+    --global-border-radius: 1.5rem;
+
+    /* box shadow */
+    --global-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    /* transition */
+    --global-transition: all 0.2s ease-in-out;
+}

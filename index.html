@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Primary Meta Tags -->
+  <title>js accordion</title>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width,initial-scale=1" name="viewport" />
+  <!-- Favicon -->
+  <link href="./img/favicon-32x32.png" rel=icon type=image/png>
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+  <!-- CSS -->
+  <link href="./dist/css/style.css" rel="stylesheet" />
+  <!-- JS -->
+  <script defer src="./dist/js/script.js"></script>
+</head>
+
+<body>
+  <main class="main">
+    <section class="accordion">
+
+      <!-- accordion hero -->
+      <div class="accordion__hero">
+        <img src="./img/faq-illustration.jpg" alt="frequently asked questions intro image">
+      </div>
+
+      <!-- accordion list -->
+      <div class="accordion__list">
+
+        <!-- accordion heading -->
+        <div class="accordion__heading">
+          <h1>FAQs</h1>
+          <button class="accordion__collapse-all">
+            <i class="fas fa-minus-square"></i> collapse all
+          </button>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              Does Google still ask brainteasers in job interviews?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                Nope. Our data showed that brainteaser questions didn’t predict how well someone would do on
+                the job so we no longer ask
+                them. Instead, we do work sample tests and ask structured interview questions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              Do I need a CS degree to be a Google software engineer?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                No, a CS degree isn’t required for most of our software engineering or product manager
+                roles.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              Will you let me know when a job has been filled?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                If you haven’t heard from us in two months about an application, we likely proceeded with
+                other candidates for that
+                particular role. However, our recruiters might reach out if we find a different potential
+                match for your skills,
+                interests, and experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              Can I apply for multiple jobs?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                Yes, you can apply for more than one role at once, though we recommend narrowing your
+                choices down to a few jobs that
+                truly match your skills, experience, and interests. We’ll review your resume/CV—and
+                transcript for interns and new
+                graduates—to determine the best fit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              How many jobs can I apply for?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                You can apply to three jobs within a rolling 30 day window. This limit gives our
+                hard-working staffing team more time to
+                focus on your application and helps you focus on the jobs that are the best match for your
+                talents.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              I’m a veteran, is there anything for me at Google?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                Veterans are welcome and encouraged to apply to Google — learn more about our initiatives,
+                roles, and programs on our
+                dedicated veterans page.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item -->
+        <div class="accordion__item">
+          <!-- accordion__button -->
+          <button class="accordion__button">
+            <span class="accordion__button-title">
+              What are the application deadlines?
+            </span>
+            <span class="accordion__button-icon">
+              <i class="fas fa-caret-down"></i>
+            </span>
+          </button>
+          <!-- accordion__content -->
+          <div class="accordion__body">
+            <div class="accordion__content">
+              <p>
+                Our job descriptions will include any application deadlines. For most of our openings, we
+                accept applications on a
+                rolling basis, and we encourage you to apply sooner rather than later.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Coded with ♥ by <a href="https://twitter.com/KareemAboeid">Kareem Aboeid</a>.
+      </p>
+    </footer>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+/* accordion style */
+.main {
+    width: 100vw;
+    padding: 6rem 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    box-shadow: var(--global-box-shadow);
+    border-radius: var(--global-border-radius);
+    padding: 2rem 2.5rem;
+    overflow: hidden;
+}
+
+.accordion__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+
+.accordion__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: var(--font-xlg);
+    font-weight: var(--font-bold);
+}
+
+.accordion__collapse-all {
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+    font-size: var(--font-sm);
+    background-color: inherit;
+    color: var(--grey-dark);
+    font-weight: var(--font-regular);
+}
+
+.accordion__collapse-all:hover {
+    color: var(--prim-color);
+}
+
+.accordion__hero img {
+    height: 30rem;
+    width: auto;
+}
+
+.accordion__item {
+    overflow: hidden;
+    padding: 0;
+    border-bottom: 1px solid var(--white);
+    transition: var(--global-transition);
+}
+
+.accordion__item:hover {
+    border-bottom-color: var(--prim-color);
+}
+
+.accordion__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    padding: 0.8rem 0.5rem;
+    padding-right: 1rem;
+    text-align: left;
+    outline: none;
+    font-size: var(--font-md);
+    transition: var(--global-transition);
+    background-color: inherit;
+    color: var(--grey-dark);
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+
+.accordion__button span {
+    display: inline-block;
+    font-size: inherit;
+}
+
+.accordion__button.is-open {
+    background-image: linear-gradient(
+        to left,
+        rgb(101 101 231 / 0.3),
+        rgb(175 103 233/ 0.3)
+    );
+    color: var(--black);
+}
+
+.accordion__button-icon {
+    cursor: pointer;
+    transition: var(--global-transition);
+    color: var(--grey-dark);
+}
+
+.accordion__button-icon.open {
+    transform: rotate(-180deg);
+    color: var(--prim-color);
+}
+
+.accordion__body {
+    max-height: 0;
+    transition: var(--global-transition);
+}
+
+.accordion__content {
+    padding: 0.5rem 2rem;
+    font-size: var(--font-md);
+    color: var(--grey-dark);
+    background-color: #f1f1f1;
+    min-height: fit-content;
+}

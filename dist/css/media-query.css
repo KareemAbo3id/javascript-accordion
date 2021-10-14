@@ -1,0 +1,16 @@
+/* media query */
+
+@media (max-width: 65rem) {
+    .accordion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 2rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .accordion__hero img {
+        height: 25rem;
+    }
+}
